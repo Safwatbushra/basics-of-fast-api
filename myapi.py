@@ -1,0 +1,6 @@
+from FAST api import FastAPI
+app = FastAPI()
+@app.get("/")
+def index()
+    return{ "name" : "first data"}
+
