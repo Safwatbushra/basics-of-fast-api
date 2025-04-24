@@ -1,4 +1,4 @@
-from FAST api import FastAPI
+from FastAPI import FastAPI
 app = FastAPI()
 @app.get("/")
 def index()
